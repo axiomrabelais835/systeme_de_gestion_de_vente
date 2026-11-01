@@ -1,0 +1,26 @@
+# Dépendances
+/node_modules/
+/frontend/node_modules/
+/backend/vendor/
+
+# Environnement
+.env
+.env.local
+*.local
+
+# Build
+/frontend/dist/
+/backend/public/build/
+/backend/public/hot
+
+# Cache et artefacts de tests
+/.phpunit.cache/
+/backend/.phpunit.cache/
+/backend/.phpunit.result.cache
+npm-debug.log*
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
